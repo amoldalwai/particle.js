@@ -1,5 +1,5 @@
 
-# particle.js    <img src="https://emojis.slackmojis.com/emojis/images/1481348711/1475/flappy_bird.png?1481348711"  width="35" height="35" />
+# particle.js    :sparkles:
 
 Adding particle effect as a background to forms using HTML CSS and JS 
 
