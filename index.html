@@ -1,0 +1,111 @@
+<link rel="stylesheet" href="css.css">
+<style>
+.loginform{
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  position: absolute;
+  left:450px;
+  top:200px; 
+  width:450px;
+  height:330px; 
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  border-radius:3%;
+}
+
+.title {
+  position:relative;
+  
+	font-family: 'Myriad Pro','Helvetica Neue', Helvetica;
+  font-weight:bold;
+  font-size: 25px;
+  text-shadow: 0px 1px 2px rgba(255,255,255,.5);
+  color: white;
+  text-align:center;
+}
+
+form {
+  background: none;
+  margin: 20px auto 0;
+  padding: 10px;
+  width: 280px;
+}
+
+input {
+  display: block;
+  font-size: 14px;
+  width:240px;
+  margin: 10px auto;
+  padding: 10px 8px 10px 8px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0, .55), 0px 1px 1px rgba(255,255,255,.5);
+  border: 1px solid #666;
+}
+
+input {
+  opacity: 0.5;
+}
+
+input:hover,
+input:focus {
+  opacity: .7;
+  color:#b61924;
+  border: 1px solid #b61924;
+   box-shadow: 0px 1px 0px rgba(255,255,255,.25),inset 0px 3px 6px rgba(0,0,0,.25);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  box-shadow: inset 0 1px 2px rgba(255,255,255, .35), 0px 1px 15px rgba(0,246,255,.5);
+  border: 1px solid #b61924;
+  outline: none;
+}
+
+input[type="submit"] {
+  appearance: none;
+  opacity: .99;
+  width:120px;
+  background: #b61924;
+  border: 1px solid #b61924;
+  border-radius: 4px;
+  color: #eee;
+  cursor: pointer;
+  text-shadow:0px -1px 0px rgba(0,0,0,.5);
+}
+
+input[type="submit"]:hover {
+  background: #b61924;
+  width:120px;
+  border: 1px solid #b61924;
+  border-radius: 3px;
+  box-shadow: inset 0px 3px 16px rgba(0,0,0,.25),0px 1px 10px rgba(255,255,255,.5),inset 0px -1px 2px rgba(255,255,255,.35);
+  text-shadow:0px 1px 1px rgba(0,0,0,.65);
+  -webkit-transition: all 0.40s ease-out;
+  transition: all 0.40s ease-out;
+}
+body
+{
+
+background: #b61924;
+}
+</style>
+
+<body>
+<!-- particles.js container --> 
+<div id="particles-js"></div> 
+<!-- stats - count particles --> 
+<div class="loginform">
+  <center>
+ <form>
+  <div class="title">Login </div><br><hr><br>
+  <input type="text" placeholder="Username"><br>
+  <input type="password" placeholder="Password"><br>
+  <input type="submit" value="Login">
+</form>
+</center>
+
+</div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<script src="js.js"></script> 
+</body>
+
